@@ -1,0 +1,456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C10061929CD6F6B0034E042 /* GameLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C10061829CD6F6B0034E042 /* GameLogic.swift */; };
+		2C10061D29CD915D0034E042 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C10061C29CD915D0034E042 /* Settings.swift */; };
+		2C3828A729D3F9B700B530E9 /* NoItemWordsWithoutScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3828A629D3F9B700B530E9 /* NoItemWordsWithoutScrollView.swift */; };
+		2C53D24729C8A8F5006D61AC /* palmcardsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C53D24629C8A8F5006D61AC /* palmcardsApp.swift */; };
+		2C53D24B29C8A8F6006D61AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C53D24A29C8A8F6006D61AC /* Assets.xcassets */; };
+		2C53D24E29C8A8F6006D61AC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C53D24D29C8A8F6006D61AC /* Preview Assets.xcassets */; };
+		2C53D25929C8A9A0006D61AC /* BottomTabsNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C53D25829C8A9A0006D61AC /* BottomTabsNavigator.swift */; };
+		2C53D25B29C8ACAE006D61AC /* DictionaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C53D25A29C8ACAE006D61AC /* DictionaryView.swift */; };
+		2C53D25D29C8B26F006D61AC /* NoItemDictionaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C53D25C29C8B26F006D61AC /* NoItemDictionaryView.swift */; };
+		2C53D25F29C8B8A1006D61AC /* AddDictionarySheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C53D25E29C8B8A1006D61AC /* AddDictionarySheet.swift */; };
+		2C53D26129C8BC71006D61AC /* DictionaryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C53D26029C8BC71006D61AC /* DictionaryModel.swift */; };
+		2C53D26329C8BDAB006D61AC /* DictionaryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C53D26229C8BDAB006D61AC /* DictionaryViewModel.swift */; };
+		2C53D26529C8C2E1006D61AC /* WordsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C53D26429C8C2E1006D61AC /* WordsView.swift */; };
+		2C53D26729C8C4D8006D61AC /* WordsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C53D26629C8C4D8006D61AC /* WordsModel.swift */; };
+		2C53D26B29C8CB9A006D61AC /* NoItemWordsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C53D26A29C8CB9A006D61AC /* NoItemWordsView.swift */; };
+		2C53D26D29C8CD17006D61AC /* AddWordSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C53D26C29C8CD17006D61AC /* AddWordSheet.swift */; };
+		2CAC993529C98A0800C52C8D /* RenameDictionarySheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CAC993429C98A0800C52C8D /* RenameDictionarySheet.swift */; };
+		2CAC993729C991C700C52C8D /* EditWordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CAC993629C991C700C52C8D /* EditWordView.swift */; };
+		2CC254F329D33E9F00DB5D52 /* ItemListSelectDictionaries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC254F229D33E9F00DB5D52 /* ItemListSelectDictionaries.swift */; };
+		2CD3E55029D1ABD400FE4DE9 /* dataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD3E54F29D1ABD400FE4DE9 /* dataSet.swift */; };
+		2CD50CCB29D0261F005E61D5 /* ReplaceWordSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD50CCA29D0261F005E61D5 /* ReplaceWordSheet.swift */; };
+		2CE088AB29CAD32C000CCEA4 /* PlayingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE088AA29CAD32C000CCEA4 /* PlayingView.swift */; };
+		2CEEB3C229CA13A300C5CE1F /* EditButtonComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CEEB3C129CA13A300C5CE1F /* EditButtonComponent.swift */; };
+		2CEEB3C429CA182700C5CE1F /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CEEB3C329CA182700C5CE1F /* SettingsView.swift */; };
+		2CEEB3C629CA191D00C5CE1F /* PlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CEEB3C529CA191D00C5CE1F /* PlayView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2C10061829CD6F6B0034E042 /* GameLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameLogic.swift; sourceTree = "<group>"; };
+		2C10061C29CD915D0034E042 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		2C3828A629D3F9B700B530E9 /* NoItemWordsWithoutScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoItemWordsWithoutScrollView.swift; sourceTree = "<group>"; };
+		2C53D24329C8A8F5006D61AC /* palmcards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = palmcards.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C53D24629C8A8F5006D61AC /* palmcardsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = palmcardsApp.swift; sourceTree = "<group>"; };
+		2C53D24A29C8A8F6006D61AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2C53D24D29C8A8F6006D61AC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2C53D25829C8A9A0006D61AC /* BottomTabsNavigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomTabsNavigator.swift; sourceTree = "<group>"; };
+		2C53D25A29C8ACAE006D61AC /* DictionaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryView.swift; sourceTree = "<group>"; };
+		2C53D25C29C8B26F006D61AC /* NoItemDictionaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoItemDictionaryView.swift; sourceTree = "<group>"; };
+		2C53D25E29C8B8A1006D61AC /* AddDictionarySheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDictionarySheet.swift; sourceTree = "<group>"; };
+		2C53D26029C8BC71006D61AC /* DictionaryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryModel.swift; sourceTree = "<group>"; };
+		2C53D26229C8BDAB006D61AC /* DictionaryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryViewModel.swift; sourceTree = "<group>"; };
+		2C53D26429C8C2E1006D61AC /* WordsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordsView.swift; sourceTree = "<group>"; };
+		2C53D26629C8C4D8006D61AC /* WordsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordsModel.swift; sourceTree = "<group>"; };
+		2C53D26A29C8CB9A006D61AC /* NoItemWordsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoItemWordsView.swift; sourceTree = "<group>"; };
+		2C53D26C29C8CD17006D61AC /* AddWordSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWordSheet.swift; sourceTree = "<group>"; };
+		2CAC993429C98A0800C52C8D /* RenameDictionarySheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RenameDictionarySheet.swift; sourceTree = "<group>"; };
+		2CAC993629C991C700C52C8D /* EditWordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditWordView.swift; sourceTree = "<group>"; };
+		2CC254F229D33E9F00DB5D52 /* ItemListSelectDictionaries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemListSelectDictionaries.swift; sourceTree = "<group>"; };
+		2CD3E54F29D1ABD400FE4DE9 /* dataSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dataSet.swift; sourceTree = "<group>"; };
+		2CD50CCA29D0261F005E61D5 /* ReplaceWordSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReplaceWordSheet.swift; sourceTree = "<group>"; };
+		2CE088AA29CAD32C000CCEA4 /* PlayingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingView.swift; sourceTree = "<group>"; };
+		2CEEB3C129CA13A300C5CE1F /* EditButtonComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditButtonComponent.swift; sourceTree = "<group>"; };
+		2CEEB3C329CA182700C5CE1F /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		2CEEB3C529CA191D00C5CE1F /* PlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C53D24029C8A8F5006D61AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C53D23A29C8A8F5006D61AC = {
+			isa = PBXGroup;
+			children = (
+				2C53D24529C8A8F5006D61AC /* palmcards */,
+				2C53D24429C8A8F5006D61AC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2C53D24429C8A8F5006D61AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C53D24329C8A8F5006D61AC /* palmcards.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C53D24529C8A8F5006D61AC /* palmcards */ = {
+			isa = PBXGroup;
+			children = (
+				2C53D24629C8A8F5006D61AC /* palmcardsApp.swift */,
+				2C10061829CD6F6B0034E042 /* GameLogic.swift */,
+				2C10061C29CD915D0034E042 /* Settings.swift */,
+				2C53D25729C8A95D006D61AC /* ViewModels */,
+				2C53D25629C8A94E006D61AC /* Models */,
+				2C53D25429C8A928006D61AC /* Views */,
+				2C53D24A29C8A8F6006D61AC /* Assets.xcassets */,
+				2C53D24C29C8A8F6006D61AC /* Preview Content */,
+			);
+			path = palmcards;
+			sourceTree = "<group>";
+		};
+		2C53D24C29C8A8F6006D61AC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2C53D24D29C8A8F6006D61AC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2C53D25429C8A928006D61AC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2C53D25829C8A9A0006D61AC /* BottomTabsNavigator.swift */,
+				2C53D25A29C8ACAE006D61AC /* DictionaryView.swift */,
+				2C53D25C29C8B26F006D61AC /* NoItemDictionaryView.swift */,
+				2C53D26A29C8CB9A006D61AC /* NoItemWordsView.swift */,
+				2C53D25E29C8B8A1006D61AC /* AddDictionarySheet.swift */,
+				2C53D26429C8C2E1006D61AC /* WordsView.swift */,
+				2CC254F229D33E9F00DB5D52 /* ItemListSelectDictionaries.swift */,
+				2C53D26C29C8CD17006D61AC /* AddWordSheet.swift */,
+				2C3828A629D3F9B700B530E9 /* NoItemWordsWithoutScrollView.swift */,
+				2CAC993429C98A0800C52C8D /* RenameDictionarySheet.swift */,
+				2CAC993629C991C700C52C8D /* EditWordView.swift */,
+				2CEEB3C129CA13A300C5CE1F /* EditButtonComponent.swift */,
+				2CD50CCA29D0261F005E61D5 /* ReplaceWordSheet.swift */,
+				2CEEB3C329CA182700C5CE1F /* SettingsView.swift */,
+				2CEEB3C529CA191D00C5CE1F /* PlayView.swift */,
+				2CE088AA29CAD32C000CCEA4 /* PlayingView.swift */,
+				2CD3E54F29D1ABD400FE4DE9 /* dataSet.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2C53D25629C8A94E006D61AC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2C53D26029C8BC71006D61AC /* DictionaryModel.swift */,
+				2C53D26629C8C4D8006D61AC /* WordsModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2C53D25729C8A95D006D61AC /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				2C53D26229C8BDAB006D61AC /* DictionaryViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2C53D24229C8A8F5006D61AC /* palmcards */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C53D25129C8A8F6006D61AC /* Build configuration list for PBXNativeTarget "palmcards" */;
+			buildPhases = (
+				2C53D23F29C8A8F5006D61AC /* Sources */,
+				2C53D24029C8A8F5006D61AC /* Frameworks */,
+				2C53D24129C8A8F5006D61AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = palmcards;
+			productName = palmcards;
+			productReference = 2C53D24329C8A8F5006D61AC /* palmcards.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2C53D23B29C8A8F5006D61AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					2C53D24229C8A8F5006D61AC = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 2C53D23E29C8A8F5006D61AC /* Build configuration list for PBXProject "palmcards" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2C53D23A29C8A8F5006D61AC;
+			productRefGroup = 2C53D24429C8A8F5006D61AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2C53D24229C8A8F5006D61AC /* palmcards */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2C53D24129C8A8F5006D61AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C53D24E29C8A8F6006D61AC /* Preview Assets.xcassets in Resources */,
+				2C53D24B29C8A8F6006D61AC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C53D23F29C8A8F5006D61AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CEEB3C429CA182700C5CE1F /* SettingsView.swift in Sources */,
+				2C53D25929C8A9A0006D61AC /* BottomTabsNavigator.swift in Sources */,
+				2C53D26729C8C4D8006D61AC /* WordsModel.swift in Sources */,
+				2C53D26B29C8CB9A006D61AC /* NoItemWordsView.swift in Sources */,
+				2C53D26D29C8CD17006D61AC /* AddWordSheet.swift in Sources */,
+				2C3828A729D3F9B700B530E9 /* NoItemWordsWithoutScrollView.swift in Sources */,
+				2C53D25F29C8B8A1006D61AC /* AddDictionarySheet.swift in Sources */,
+				2C53D25B29C8ACAE006D61AC /* DictionaryView.swift in Sources */,
+				2C53D25D29C8B26F006D61AC /* NoItemDictionaryView.swift in Sources */,
+				2C53D26529C8C2E1006D61AC /* WordsView.swift in Sources */,
+				2C53D26329C8BDAB006D61AC /* DictionaryViewModel.swift in Sources */,
+				2CD50CCB29D0261F005E61D5 /* ReplaceWordSheet.swift in Sources */,
+				2CEEB3C629CA191D00C5CE1F /* PlayView.swift in Sources */,
+				2CAC993729C991C700C52C8D /* EditWordView.swift in Sources */,
+				2C10061929CD6F6B0034E042 /* GameLogic.swift in Sources */,
+				2CAC993529C98A0800C52C8D /* RenameDictionarySheet.swift in Sources */,
+				2C10061D29CD915D0034E042 /* Settings.swift in Sources */,
+				2CC254F329D33E9F00DB5D52 /* ItemListSelectDictionaries.swift in Sources */,
+				2CE088AB29CAD32C000CCEA4 /* PlayingView.swift in Sources */,
+				2C53D24729C8A8F5006D61AC /* palmcardsApp.swift in Sources */,
+				2CEEB3C229CA13A300C5CE1F /* EditButtonComponent.swift in Sources */,
+				2C53D26129C8BC71006D61AC /* DictionaryModel.swift in Sources */,
+				2CD3E55029D1ABD400FE4DE9 /* dataSet.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2C53D24F29C8A8F6006D61AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2C53D25029C8A8F6006D61AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2C53D25229C8A8F6006D61AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"palmcards/Preview Content\"";
+				DEVELOPMENT_TEAM = 3U7F2TKHLN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Palm Cards";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vadim.palmcards;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2C53D25329C8A8F6006D61AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"palmcards/Preview Content\"";
+				DEVELOPMENT_TEAM = 3U7F2TKHLN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Palm Cards";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vadim.palmcards;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C53D23E29C8A8F5006D61AC /* Build configuration list for PBXProject "palmcards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C53D24F29C8A8F6006D61AC /* Debug */,
+				2C53D25029C8A8F6006D61AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C53D25129C8A8F6006D61AC /* Build configuration list for PBXNativeTarget "palmcards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C53D25229C8A8F6006D61AC /* Debug */,
+				2C53D25329C8A8F6006D61AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2C53D23B29C8A8F5006D61AC /* Project object */;
+}
