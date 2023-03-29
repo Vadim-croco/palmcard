@@ -9,12 +9,14 @@ import SwiftUI
 
 struct PlayView: View {
     @EnvironmentObject var dictionaryViewModel: DictionaryViewModel
-    @State private var selectDictionary: String = ""
-    @State private var doNavigate: Bool = false
-    
+    @EnvironmentObject var settings: Settings
+    @State private var doCardsNavigate: Bool = false
+    @State private var doWritingNavigate: Bool = false
     @State var chosenDictionaries: [String] = []
     
     @State var test: Bool = false
+
+    let listOfTypeGames = ["cards", "write words"]
     
     var body: some View {
         NavigationStack{
@@ -36,8 +38,10 @@ struct PlayView: View {
                                     )
                                 }
                             }
+                            .frame(height: 400)
                             
                             if getListWordsFromChosenDictionaries().isEmpty {
+                                Spacer()
                                 NoItemWordsWithoutScrollView()
                             }
                         }
@@ -45,7 +49,11 @@ struct PlayView: View {
                     Spacer()
                     
                     Button(action: {
-                        doNavigate.toggle()
+                        if settings.selectTypeOfGame == .writing {
+                            doWritingNavigate.toggle()
+                        } else {
+                            doCardsNavigate.toggle()
+                        }
                     }) {
                         Text("Играть")
                             .tint(Color.white)
@@ -57,11 +65,18 @@ struct PlayView: View {
                     }
                     .disabled(dictionaryViewModel.dictionaries.isEmpty || getListWordsFromChosenDictionaries().isEmpty ? true : false)
                     
-                    NavigationLink(value: "PlayingView", label: {
+                    NavigationLink(value: "CardsPlayingView", label: {
                         EmptyView()
                     })
-                    .navigationDestination(isPresented: $doNavigate) {
-                        PlayingView(chosenDictionaries: chosenDictionaries, listWords: getListWordsFromChosenDictionaries())
+                    .navigationDestination(isPresented: $doCardsNavigate) {
+                        CardsPlayingView(chosenDictionaries: chosenDictionaries, listWords: getListWordsFromChosenDictionaries())
+                    }
+                    
+                    NavigationLink(value: "WritingPlayingView", label: {
+                        EmptyView()
+                    })
+                    .navigationDestination(isPresented: $doWritingNavigate) {
+                        WritingPlayingView(chosenDictionaries: chosenDictionaries, listWords: getListWordsFromChosenDictionaries())
                     }
                 }
             }
@@ -123,5 +138,6 @@ struct PlayView_Previews: PreviewProvider {
     static var previews: some View {
         PlayView()
             .environmentObject(DictionaryViewModel())
+            .environmentObject(Settings())
     }
 }

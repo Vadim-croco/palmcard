@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2C10061929CD6F6B0034E042 /* GameLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C10061829CD6F6B0034E042 /* GameLogic.swift */; };
+		2C09FC7929DA923D007807BC /* WritingGameLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C09FC7829DA923D007807BC /* WritingGameLogic.swift */; };
+		2C10061929CD6F6B0034E042 /* CardsGameLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C10061829CD6F6B0034E042 /* CardsGameLogic.swift */; };
 		2C10061D29CD915D0034E042 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C10061C29CD915D0034E042 /* Settings.swift */; };
 		2C3828A729D3F9B700B530E9 /* NoItemWordsWithoutScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3828A629D3F9B700B530E9 /* NoItemWordsWithoutScrollView.swift */; };
+		2C475B1829D96E6B00ADDA33 /* PlayKeyBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C475B1729D96E6B00ADDA33 /* PlayKeyBoard.swift */; };
 		2C53D24729C8A8F5006D61AC /* palmcardsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C53D24629C8A8F5006D61AC /* palmcardsApp.swift */; };
 		2C53D24B29C8A8F6006D61AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C53D24A29C8A8F6006D61AC /* Assets.xcassets */; };
 		2C53D24E29C8A8F6006D61AC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C53D24D29C8A8F6006D61AC /* Preview Assets.xcassets */; };
@@ -23,21 +25,23 @@
 		2C53D26729C8C4D8006D61AC /* WordsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C53D26629C8C4D8006D61AC /* WordsModel.swift */; };
 		2C53D26B29C8CB9A006D61AC /* NoItemWordsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C53D26A29C8CB9A006D61AC /* NoItemWordsView.swift */; };
 		2C53D26D29C8CD17006D61AC /* AddWordSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C53D26C29C8CD17006D61AC /* AddWordSheet.swift */; };
+		2C60A0C629D952D80092061C /* CardsPlayingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C60A0C529D952D80092061C /* CardsPlayingView.swift */; };
+		2C60A0C829D953E30092061C /* WritingPlayingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C60A0C729D953E30092061C /* WritingPlayingView.swift */; };
 		2CAC993529C98A0800C52C8D /* RenameDictionarySheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CAC993429C98A0800C52C8D /* RenameDictionarySheet.swift */; };
 		2CAC993729C991C700C52C8D /* EditWordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CAC993629C991C700C52C8D /* EditWordView.swift */; };
 		2CC254F329D33E9F00DB5D52 /* ItemListSelectDictionaries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC254F229D33E9F00DB5D52 /* ItemListSelectDictionaries.swift */; };
-		2CD3E55029D1ABD400FE4DE9 /* dataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD3E54F29D1ABD400FE4DE9 /* dataSet.swift */; };
 		2CD50CCB29D0261F005E61D5 /* ReplaceWordSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD50CCA29D0261F005E61D5 /* ReplaceWordSheet.swift */; };
-		2CE088AB29CAD32C000CCEA4 /* PlayingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE088AA29CAD32C000CCEA4 /* PlayingView.swift */; };
 		2CEEB3C229CA13A300C5CE1F /* EditButtonComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CEEB3C129CA13A300C5CE1F /* EditButtonComponent.swift */; };
 		2CEEB3C429CA182700C5CE1F /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CEEB3C329CA182700C5CE1F /* SettingsView.swift */; };
 		2CEEB3C629CA191D00C5CE1F /* PlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CEEB3C529CA191D00C5CE1F /* PlayView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2C10061829CD6F6B0034E042 /* GameLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameLogic.swift; sourceTree = "<group>"; };
+		2C09FC7829DA923D007807BC /* WritingGameLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WritingGameLogic.swift; sourceTree = "<group>"; };
+		2C10061829CD6F6B0034E042 /* CardsGameLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsGameLogic.swift; sourceTree = "<group>"; };
 		2C10061C29CD915D0034E042 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 		2C3828A629D3F9B700B530E9 /* NoItemWordsWithoutScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoItemWordsWithoutScrollView.swift; sourceTree = "<group>"; };
+		2C475B1729D96E6B00ADDA33 /* PlayKeyBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayKeyBoard.swift; sourceTree = "<group>"; };
 		2C53D24329C8A8F5006D61AC /* palmcards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = palmcards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C53D24629C8A8F5006D61AC /* palmcardsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = palmcardsApp.swift; sourceTree = "<group>"; };
 		2C53D24A29C8A8F6006D61AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -52,12 +56,12 @@
 		2C53D26629C8C4D8006D61AC /* WordsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordsModel.swift; sourceTree = "<group>"; };
 		2C53D26A29C8CB9A006D61AC /* NoItemWordsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoItemWordsView.swift; sourceTree = "<group>"; };
 		2C53D26C29C8CD17006D61AC /* AddWordSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWordSheet.swift; sourceTree = "<group>"; };
+		2C60A0C529D952D80092061C /* CardsPlayingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsPlayingView.swift; sourceTree = "<group>"; };
+		2C60A0C729D953E30092061C /* WritingPlayingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WritingPlayingView.swift; sourceTree = "<group>"; };
 		2CAC993429C98A0800C52C8D /* RenameDictionarySheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RenameDictionarySheet.swift; sourceTree = "<group>"; };
 		2CAC993629C991C700C52C8D /* EditWordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditWordView.swift; sourceTree = "<group>"; };
 		2CC254F229D33E9F00DB5D52 /* ItemListSelectDictionaries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemListSelectDictionaries.swift; sourceTree = "<group>"; };
-		2CD3E54F29D1ABD400FE4DE9 /* dataSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dataSet.swift; sourceTree = "<group>"; };
 		2CD50CCA29D0261F005E61D5 /* ReplaceWordSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReplaceWordSheet.swift; sourceTree = "<group>"; };
-		2CE088AA29CAD32C000CCEA4 /* PlayingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingView.swift; sourceTree = "<group>"; };
 		2CEEB3C129CA13A300C5CE1F /* EditButtonComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditButtonComponent.swift; sourceTree = "<group>"; };
 		2CEEB3C329CA182700C5CE1F /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		2CEEB3C529CA191D00C5CE1F /* PlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayView.swift; sourceTree = "<group>"; };
@@ -94,8 +98,9 @@
 			isa = PBXGroup;
 			children = (
 				2C53D24629C8A8F5006D61AC /* palmcardsApp.swift */,
-				2C10061829CD6F6B0034E042 /* GameLogic.swift */,
+				2C10061829CD6F6B0034E042 /* CardsGameLogic.swift */,
 				2C10061C29CD915D0034E042 /* Settings.swift */,
+				2C09FC7829DA923D007807BC /* WritingGameLogic.swift */,
 				2C53D25729C8A95D006D61AC /* ViewModels */,
 				2C53D25629C8A94E006D61AC /* Models */,
 				2C53D25429C8A928006D61AC /* Views */,
@@ -131,8 +136,9 @@
 				2CD50CCA29D0261F005E61D5 /* ReplaceWordSheet.swift */,
 				2CEEB3C329CA182700C5CE1F /* SettingsView.swift */,
 				2CEEB3C529CA191D00C5CE1F /* PlayView.swift */,
-				2CE088AA29CAD32C000CCEA4 /* PlayingView.swift */,
-				2CD3E54F29D1ABD400FE4DE9 /* dataSet.swift */,
+				2C60A0C529D952D80092061C /* CardsPlayingView.swift */,
+				2C60A0C729D953E30092061C /* WritingPlayingView.swift */,
+				2C475B1729D96E6B00ADDA33 /* PlayKeyBoard.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -238,15 +244,17 @@
 				2CD50CCB29D0261F005E61D5 /* ReplaceWordSheet.swift in Sources */,
 				2CEEB3C629CA191D00C5CE1F /* PlayView.swift in Sources */,
 				2CAC993729C991C700C52C8D /* EditWordView.swift in Sources */,
-				2C10061929CD6F6B0034E042 /* GameLogic.swift in Sources */,
+				2C10061929CD6F6B0034E042 /* CardsGameLogic.swift in Sources */,
+				2C09FC7929DA923D007807BC /* WritingGameLogic.swift in Sources */,
 				2CAC993529C98A0800C52C8D /* RenameDictionarySheet.swift in Sources */,
 				2C10061D29CD915D0034E042 /* Settings.swift in Sources */,
 				2CC254F329D33E9F00DB5D52 /* ItemListSelectDictionaries.swift in Sources */,
-				2CE088AB29CAD32C000CCEA4 /* PlayingView.swift in Sources */,
 				2C53D24729C8A8F5006D61AC /* palmcardsApp.swift in Sources */,
 				2CEEB3C229CA13A300C5CE1F /* EditButtonComponent.swift in Sources */,
+				2C475B1829D96E6B00ADDA33 /* PlayKeyBoard.swift in Sources */,
+				2C60A0C629D952D80092061C /* CardsPlayingView.swift in Sources */,
 				2C53D26129C8BC71006D61AC /* DictionaryModel.swift in Sources */,
-				2CD3E55029D1ABD400FE4DE9 /* dataSet.swift in Sources */,
+				2C60A0C829D953E30092061C /* WritingPlayingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

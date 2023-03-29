@@ -23,11 +23,12 @@ struct NoItemWordsWithoutScrollView: View {
                     Text("Вы можете добавить их")
                         .foregroundColor(.secondary)
                         .padding(.bottom)
-                    Spacer()
                 }
-                .padding(.vertical)
+               // .padding(.vertical)
                 .opacity(animateOpacity ? 1 : 0)
         }
+        .frame(maxWidth: .infinity)
+        .frame(height: 110)
         .onAppear{
             DispatchQueue.main.asyncAfter(deadline: .now() + 0.2, execute: {
                 withAnimation(.linear(duration: 1)){

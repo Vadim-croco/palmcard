@@ -19,7 +19,17 @@ struct SettingsView: View {
                 List {
                     Section("Игра") {
                         Toggle("Показывать сначала перевод", isOn: $settings.firstShowTranslate)
+                        Toggle("Скрывать примеры", isOn: $settings.hideExample)
+                        Picker("Выбрать режим игры", selection: $settings.selectTypeOfGame)
+                        {
+                            ForEach(settings.getAllCasesTypesGame(), id: \.self) { value in
+                                Text(value.localizedName)
+                                    .tag(value)
+                            }
+                        }
+                        .tint(Color.red)
                     }
+                    .tint(Color.red)
                 }
             }
             .navigationTitle("Настройки")

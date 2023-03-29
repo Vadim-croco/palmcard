@@ -28,18 +28,18 @@ struct ItemListSelectDictionaries: View {
                         .font(.title2)
                         .opacity(chosenDictionaries.contains(idDictionary) ? 1 : 0)
             }
-            .onTapGesture {
-                if !chosenDictionaries.contains(idDictionary) {
-                    // add item
-                    chosenDictionaries.append(idDictionary)
-                } else {
-                    // delete item
-                    chosenDictionaries = chosenDictionaries.filter{$0 != idDictionary}
-                }
-                // save chosenDictionaries
-                if let encodingData = try? JSONEncoder().encode(chosenDictionaries) {
-                    UserDefaults.standard.set(encodingData, forKey: "chosenDictionaries")
-                }
+        }
+        .onTapGesture {
+            if !chosenDictionaries.contains(idDictionary) {
+                // add item
+                chosenDictionaries.append(idDictionary)
+            } else {
+                // delete item
+                chosenDictionaries = chosenDictionaries.filter{$0 != idDictionary}
+            }
+            // save chosenDictionaries
+            if let encodingData = try? JSONEncoder().encode(chosenDictionaries) {
+                UserDefaults.standard.set(encodingData, forKey: "chosenDictionaries")
             }
         }
     }
